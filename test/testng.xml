@@ -1,0 +1,126 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite" parallel="tests" thread-count="1">
+
+
+<test name="ClemUK V7">
+    <classes>
+        <class name="test.ClemUK_V7" ></class>  
+    </classes>
+</test> 
+ 
+ <test name="Kingsbury">
+    <classes>
+        <class name="test.ClemUK_V7" ></class>  
+    </classes>
+</test> 
+<!--  <test name="VicGov Production">
+    <classes>
+        <class name="test.VicGov" ></class>  
+    </classes>
+</test> 
+
+ <test name="Kingsbury Staging">
+    <classes>
+        <class name="kingsbury_Staging" ></class>  
+    </classes>
+</test>  
+< 
+ <test name="Kingsbury Staging">
+    <classes>
+        <class name="kingsbury_Staging" ></class>  
+    </classes>
+</test>  
+<test name="SFG Production">
+    <classes>
+        <class name="test.SFG" ></class>  
+    </classes>
+</test>  
+
+<test name="Bendon Production">
+    <classes>
+        <class name="test.Bendon" ></class>  
+    </classes>
+</test>  -->
+
+ <!--  <test name="Sales V6 Production">
+    <classes>
+        <class name="test.Sales_V6" ></class>  
+    </classes>
+</test>  
+
+ <test name="Sales V7 Production">
+    <classes>
+        <class name="test.Sales_V7" ></class>  
+    </classes>
+</test>  
+   <test name="Sales V7 QA">
+    <classes>
+        <class name="test.qaSales_V7" ></class>  
+    </classes>
+</test> 
+
+<!-- 
+  <test name="Sales V6 QA">
+    <classes>
+        <class name="test.SalesQA" ></class>  
+    </classes>
+</test>  
+  <test name="QLD Production V6 ">
+    <classes>
+        <class name="test.QLDPROD" ></class>  
+    </classes>
+</test>
+
+
+
+ <test name="QLD Production V7 ">
+    <classes>
+        <class name="test.QLDProd_V7" ></class>  
+    </classes>
+</test> 
+
+
+  <test name="QLD Training V6">
+    <classes>
+        <class name="test.QLDTRN" ></class>  
+    </classes>
+</test> 
+
+ <test name="QLD Training V7">
+    <classes>
+        <class name="test.Training_V7" ></class>  
+    </classes>
+</test> 
+
+ 
+<test name="QLD Preprod V6">
+    <classes>
+        <class name="test.QLDPREPROD" ></class>  
+    </classes>
+</test> 
+ 
+  <test name="QLD Preprod V7">
+    <classes>
+        <class name="test.Preprod_V7" ></class>  
+    </classes>
+</test> 
+
+  <test name="QLDQA V6">
+    <classes>
+        <class name="test.QLDQA" ></class>  
+    </classes>
+</test>
+
+
+<test name="QLDQA V7">
+    <classes>
+        <class name="test.QLDQA_V7" ></class>  
+    </classes>
+</test> -->
+
+<listeners>
+        <listener class-name="utils.Listeners.TestListener"/>
+    </listeners>
+</suite>
+
+

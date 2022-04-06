@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="24" passed="22">
+  <reporter-output>
+    <line>
+      <![CDATA[===============================================================]]>
+    </line>
+    <line>
+      <![CDATA[UAT_sales]]>
+    </line>
+    <line>
+      <![CDATA[Browser Name:CHROME]]>
+    </line>
+    <line>
+      <![CDATA[UAT]]>
+    </line>
+    <line>
+      <![CDATA[Browser Version:]]>
+    </line>
+    <line>
+      <![CDATA[UAT]]>
+    </line>
+    <line>
+      <![CDATA[Browser Version:]]>
+    </line>
+    <line>
+      <![CDATA[UAT_sales-v7automation- Springboard Login Passed]]>
+    </line>
+    <line>
+      <![CDATA[Candidate Search from the Top Menu is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Add candidate from the Top Menu is loaded]]>
+    </line>
+    <line>
+      <![CDATA[Notifications Tab Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Job Tab Loaded]]>
+    </line>
+    <line>
+      <![CDATA[Job grid loads successfully]]>
+    </line>
+    <line>
+      <![CDATA[Resume tab working]]>
+    </line>
+    <line>
+      <![CDATA[PROFILE tab working]]>
+    </line>
+    <line>
+      <![CDATA[APPLICATION tab working]]>
+    </line>
+    <line>
+      <![CDATA[COMMUNICATION tab working]]>
+    </line>
+    <line>
+      <![CDATA[FORMS tab working]]>
+    </line>
+    <line>
+      <![CDATA[ACTIVITY tab working]]>
+    </line>
+    <line>
+      <![CDATA[DOCUMENTS tab working]]>
+    </line>
+    <line>
+      <![CDATA[EXPERIENCE tab working]]>
+    </line>
+    <line>
+      <![CDATA[Job Request page loads]]>
+    </line>
+    <line>
+      <![CDATA[Required Job Requisition loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Candidate Search page loads]]>
+    </line>
+    <line>
+      <![CDATA[Email Inbox page loads]]>
+    </line>
+    <line>
+      <![CDATA[External Search page loads]]>
+    </line>
+    <line>
+      <![CDATA[Interview page loads]]>
+    </line>
+    <line>
+      <![CDATA[Companies page loads]]>
+    </line>
+    <line>
+      <![CDATA[Email Queue Admin page loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Document Template page loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Orbeon form not loading properly]]>
+    </line>
+    <line>
+      <![CDATA[Campaigns page loads]]>
+    </line>
+    <line>
+      <![CDATA[Tasks page loads]]>
+    </line>
+    <line>
+      <![CDATA[Forms Management Page page loads]]>
+    </line>
+    <line>
+      <![CDATA[Edit/View Form Management Page loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Holiday tab loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Locations tab loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Talent Folder Processes tab loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Process designer page loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Forms and Front-End Admin  page loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Delete Candidate page loaded successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="217074" started-at="2022-03-30T00:08:44Z" finished-at="2022-03-30T00:12:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="217074" started-at="2022-03-30T00:08:44Z" finished-at="2022-03-30T00:12:21Z">
+      <class name="test.UAT_sales">
+        <test-method status="PASS" signature="login_backend(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:test.UAT_sales@1a482e36]" name="login_backend" duration-ms="12355" started-at="2022-03-30T00:08:45Z" data-provider="salesV7-data-provider" finished-at="2022-03-30T00:08:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[v7automation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[UAT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[===============================================================]]>
+            </line>
+            <line>
+              <![CDATA[UAT_sales]]>
+            </line>
+            <line>
+              <![CDATA[Browser Name:CHROME]]>
+            </line>
+            <line>
+              <![CDATA[UAT]]>
+            </line>
+            <line>
+              <![CDATA[Browser Version:]]>
+            </line>
+            <line>
+              <![CDATA[UAT]]>
+            </line>
+            <line>
+              <![CDATA[Browser Version:]]>
+            </line>
+            <line>
+              <![CDATA[UAT_sales-v7automation- Springboard Login Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_backend -->
+        <test-method status="PASS" signature="topMenuItems()[pri:2, instance:test.UAT_sales@1a482e36]" name="topMenuItems" duration-ms="4735" started-at="2022-03-30T00:08:57Z" finished-at="2022-03-30T00:09:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Candidate Search from the Top Menu is loaded]]>
+            </line>
+            <line>
+              <![CDATA[Add candidate from the Top Menu is loaded]]>
+            </line>
+            <line>
+              <![CDATA[Notifications Tab Loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- topMenuItems -->
+        <test-method status="PASS" signature="jobs()[pri:3, instance:test.UAT_sales@1a482e36]" name="jobs" duration-ms="10269" started-at="2022-03-30T00:09:02Z" finished-at="2022-03-30T00:09:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Job Tab Loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- jobs -->
+        <test-method status="PASS" signature="reviewModeJobGrid()[pri:4, instance:test.UAT_sales@1a482e36]" name="reviewModeJobGrid" duration-ms="27254" started-at="2022-03-30T00:09:12Z" finished-at="2022-03-30T00:09:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Job grid loads successfully]]>
+            </line>
+            <line>
+              <![CDATA[Resume tab working]]>
+            </line>
+            <line>
+              <![CDATA[PROFILE tab working]]>
+            </line>
+            <line>
+              <![CDATA[APPLICATION tab working]]>
+            </line>
+            <line>
+              <![CDATA[COMMUNICATION tab working]]>
+            </line>
+            <line>
+              <![CDATA[FORMS tab working]]>
+            </line>
+            <line>
+              <![CDATA[ACTIVITY tab working]]>
+            </line>
+            <line>
+              <![CDATA[DOCUMENTS tab working]]>
+            </line>
+            <line>
+              <![CDATA[EXPERIENCE tab working]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reviewModeJobGrid -->
+        <test-method status="PASS" signature="JobRequest()[pri:6, instance:test.UAT_sales@1a482e36]" name="JobRequest" duration-ms="3728" started-at="2022-03-30T00:09:39Z" finished-at="2022-03-30T00:09:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Job Request page loads]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- JobRequest -->
+        <test-method status="PASS" signature="JobSearch()[pri:6, instance:test.UAT_sales@1a482e36]" name="JobSearch" duration-ms="7597" started-at="2022-03-30T00:09:43Z" finished-at="2022-03-30T00:09:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Required Job Requisition loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- JobSearch -->
+        <test-method status="PASS" signature="CandidateSearch()[pri:7, instance:test.UAT_sales@1a482e36]" name="CandidateSearch" duration-ms="9101" started-at="2022-03-30T00:09:51Z" finished-at="2022-03-30T00:10:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Candidate Search page loads]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CandidateSearch -->
+        <test-method status="PASS" signature="EmailInbox()[pri:7, instance:test.UAT_sales@1a482e36]" name="EmailInbox" duration-ms="12866" started-at="2022-03-30T00:10:00Z" finished-at="2022-03-30T00:10:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Email Inbox page loads]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmailInbox -->
+        <test-method status="PASS" signature="externalSearch()[pri:8, instance:test.UAT_sales@1a482e36]" name="externalSearch" duration-ms="7255" started-at="2022-03-30T00:10:13Z" finished-at="2022-03-30T00:10:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[External Search page loads]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- externalSearch -->
+        <test-method status="PASS" signature="Interviews()[pri:9, instance:test.UAT_sales@1a482e36]" name="Interviews" duration-ms="5911" started-at="2022-03-30T00:10:20Z" finished-at="2022-03-30T00:10:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Interview page loads]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Interviews -->
+        <test-method status="PASS" signature="Companies()[pri:10, instance:test.UAT_sales@1a482e36]" name="Companies" duration-ms="8453" started-at="2022-03-30T00:10:26Z" finished-at="2022-03-30T00:10:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Companies page loads]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Companies -->
+        <test-method status="PASS" signature="EmailQueueAdmin()[pri:11, instance:test.UAT_sales@1a482e36]" name="EmailQueueAdmin" duration-ms="6318" started-at="2022-03-30T00:10:34Z" finished-at="2022-03-30T00:10:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Email Queue Admin page loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EmailQueueAdmin -->
+        <test-method status="PASS" signature="DocumentTemplates()[pri:12, instance:test.UAT_sales@1a482e36]" name="DocumentTemplates" duration-ms="5315" started-at="2022-03-30T00:10:41Z" finished-at="2022-03-30T00:10:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Document Template page loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DocumentTemplates -->
+        <test-method status="FAIL" signature="OrbeonForm()[pri:13, instance:test.UAT_sales@1a482e36]" name="OrbeonForm" duration-ms="30609" started-at="2022-03-30T00:10:46Z" finished-at="2022-03-30T00:11:17Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Orbeon form not loading properly]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Orbeon form not loading properly
+at test.UAT_sales.OrbeonForm(UAT_sales.java:684)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+            <line>
+              <![CDATA[Orbeon form not loading properly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OrbeonForm -->
+        <test-method status="PASS" signature="Campaigns()[pri:14, instance:test.UAT_sales@1a482e36]" name="Campaigns" duration-ms="3807" started-at="2022-03-30T00:11:17Z" finished-at="2022-03-30T00:11:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Campaigns page loads]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Campaigns -->
+        <test-method status="PASS" signature="Tasks()[pri:15, instance:test.UAT_sales@1a482e36]" name="Tasks" duration-ms="3280" started-at="2022-03-30T00:11:20Z" finished-at="2022-03-30T00:11:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tasks page loads]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tasks -->
+        <test-method status="PASS" signature="FormsManagement()[pri:16, instance:test.UAT_sales@1a482e36]" name="FormsManagement" duration-ms="22358" started-at="2022-03-30T00:11:24Z" finished-at="2022-03-30T00:11:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Forms Management Page page loads]]>
+            </line>
+            <line>
+              <![CDATA[Edit/View Form Management Page loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FormsManagement -->
+        <test-method status="PASS" signature="Holiday()[pri:17, instance:test.UAT_sales@1a482e36]" name="Holiday" duration-ms="4436" started-at="2022-03-30T00:11:46Z" finished-at="2022-03-30T00:11:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Holiday tab loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Holiday -->
+        <test-method status="PASS" signature="Locations()[pri:18, instance:test.UAT_sales@1a482e36]" name="Locations" duration-ms="2194" started-at="2022-03-30T00:11:51Z" finished-at="2022-03-30T00:11:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Locations tab loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Locations -->
+        <test-method status="PASS" signature="TalentFolderProcesses()[pri:19, instance:test.UAT_sales@1a482e36]" name="TalentFolderProcesses" duration-ms="2726" started-at="2022-03-30T00:11:53Z" finished-at="2022-03-30T00:11:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Talent Folder Processes tab loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TalentFolderProcesses -->
+        <test-method status="PASS" signature="ProcessDesigner()[pri:23, instance:test.UAT_sales@1a482e36]" name="ProcessDesigner" duration-ms="9215" started-at="2022-03-30T00:11:55Z" finished-at="2022-03-30T00:12:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Process designer page loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProcessDesigner -->
+        <test-method status="PASS" signature="FormsAndFrontEndAdmin()[pri:24, instance:test.UAT_sales@1a482e36]" name="FormsAndFrontEndAdmin" duration-ms="5002" started-at="2022-03-30T00:12:05Z" finished-at="2022-03-30T00:12:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Forms and Front-End Admin  page loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FormsAndFrontEndAdmin -->
+        <test-method status="PASS" signature="delete_candidate()[pri:25, instance:test.UAT_sales@1a482e36]" name="delete_candidate" duration-ms="10290" started-at="2022-03-30T00:12:10Z" finished-at="2022-03-30T00:12:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Delete Candidate page loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- delete_candidate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.UAT_sales@1a482e36]" name="tearDown" is-config="true" duration-ms="854" started-at="2022-03-30T00:12:20Z" finished-at="2022-03-30T00:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.UAT_sales -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
