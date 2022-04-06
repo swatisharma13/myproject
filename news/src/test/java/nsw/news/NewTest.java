@@ -27,20 +27,21 @@ public static String javaScript = "var evObj = document.createEvent('MouseEvents
          "evObj.initMouseEvent(\"mouseover\",true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);" +
            "arguments[0].dispatchEvent(evObj);";
   @SuppressWarnings("deprecation")
-  @Test(dataProvider = "input-data-provider")
+  
+ // @Test(dataProvider = "input-data-provider") 
+  @Test
   public void f() {
+	  int topic = userinputDataProvider();
 	  WebDriverManager.chromedriver().setup();
 	  d1 = new ChromeDriver();
 	  d1.get("https://www.nsw.gov.au/news");
 	    d1.manage().window().maximize();
-
+	    
 d1.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 d1.findElement(By.xpath("//fieldset[@id='edit-fieldset-category']//button[@type='button']")).click();
 d1.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-
-int Topic = 0;
-switch(Topic) {
+switch(topic) {
 case 1:
 	WebElement topic1 = d1.findElement(By.xpath("//label[contains(text(), 'Adult and Community Education')]"));
 	topic1.click();
@@ -73,11 +74,21 @@ case 2:
 	}
 		break;
 	}
+//Click on Apply Button
+d1.findElement(By.xpath("//option[@value='Reset']")).click();
   }
-  
+@Test
+public static void resetbutton() {
+	d1.findElement(By.xpath("//option[@value='Reset']")).click();;
+	
+
+
+
+  }
+ 
   @DataProvider(name="input-data-provider")
-	public int[] userinputDataProvider() 
+	public int userinputDataProvider() 
 	{
-		return ExcelReadUtil.readExcelInto2DArray("./topics.xlsx","input",1);
+		return ExcelReadUtil.readExcel("./topics.xlsx","input",1);
 	}
 }
