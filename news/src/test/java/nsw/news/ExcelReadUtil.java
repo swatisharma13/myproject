@@ -1,38 +1,42 @@
 package nsw.news;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
+import java.util.Iterator;
 
-import org.apache.poi.openxml4j.opc.OPCPackage;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
 public class ExcelReadUtil {
-	  
-	  public static void main (int [] args) throws IOException{
-		//Path of the excel file
-		FileInputStream fs = new FileInputStream("D:\\DemoFile.xlsx");
-		//Creating a workbook
-		XSSFWorkbook workbook = new XSSFWorkbook(fs);
-		XSSFSheet sheet = workbook.getSheetAt(0);
-		Row row = sheet.getRow(0);
-		Cell cell = row.getCell(0);
-		System.out.println(sheet.getRow(0).getCell(0));
-		Row row1 = sheet.getRow(1);
-		Cell cell1 = row1.getCell(1);
-		System.out.println(sheet.getRow(0).getCell(1));
-		Row row2 = sheet.getRow(1);
-		Cell cell2 = row2.getCell(1);
-		System.out.println(sheet.getRow(1).getCell(0));
-		Row row3 = sheet.getRow(1);
-		Cell cell3 = row3.getCell(1);
-		System.out.println(sheet.getRow(1).getCell(1));
-	  
-	  }
-
-		}
+//public static void main (int [] args) throws IOException{
+	  public static int readExcel(String excelFilePath, String sheetName, int totalCols) {
+		  int topic=0;
+		  try  
+		  {  
+		  File file = new File("C:\\Users\\ssharma5\\news\\topics.xlsx");   //creating a new file instance  
+		  FileInputStream fis = new FileInputStream(file);   //obtaining bytes from the file  
+		  //creating Workbook instance that refers to .xlsx file  
+		  XSSFWorkbook wb = new XSSFWorkbook(fis);   
+		  XSSFSheet sheet = wb.getSheetAt(0);     //creating a Sheet object to retrieve object  
+		  Iterator<Row> itr = sheet.iterator();    //iterating over excel file  
+		  while (itr.hasNext())                 
+		  {  
+		  Row row = itr.next();  
+		  Iterator<Cell> cellIterator = row.cellIterator();   //iterating over each column  
+		  while (cellIterator.hasNext())   
+		  {  
+		  Cell cell = cellIterator.next();  
+		  System.out.print((int)cell.getNumericCellValue() + "\t\t\t");    
+		  topic = (int)cell.getNumericCellValue();
+		  }  
+		  System.out.println("");  
+		  }  
+		  }  
+		  catch(Exception e)  
+		  {  
+		  e.printStackTrace();  
+		  }  
+		  return topic;
+		  
+		  }  
+}
